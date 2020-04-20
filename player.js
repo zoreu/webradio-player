@@ -40,7 +40,7 @@ function montar(){
 			'<h2>' + tytle + '</h2>' +
 		'</div>' + // #bragaTitulo
 		'<audio controls id="bragaPlayer" ' + autoplay + '>' +
-			'<source src="http://' + ip + ':' + porta + '/;stream.mp3" type="audio/mp3">' +
+			'<source src="http://' + ip + ':' + porta + '/;" type="audio/mp3">' +
 			'Seu navegador não suporta o elemento de áudio.' +
 		'</audio>' + // #bragaPlayer
 		'<div class="footer">' +
